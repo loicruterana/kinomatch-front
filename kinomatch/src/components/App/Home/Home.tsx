@@ -27,7 +27,7 @@ import { NoResultContext } from '../../../contexts/NoResultContext';
 export const Home: React.FC = () => {
   const navigate = useNavigate();
 
-  // ================ INTERFACES ================
+  // ================ INTERFACE ================
 
   interface ProviderFromAPI {
     display_priorities: {
